@@ -129,6 +129,22 @@ export default function Snake() {
           />
         ))}
 
+<<<<<<< HEAD
+        {/* Comida - Logo Toctoc */}
+        <img
+          src="/logo_toctoc.png"
+          alt="Toctoc Logo"
+          style={{
+            position: "absolute",
+            left: food.x * CELL_SIZE - CELL_SIZE / 2,
+            top: food.y * CELL_SIZE - CELL_SIZE / 2,
+            width: CELL_SIZE * 2,
+            height: CELL_SIZE * 2,
+            objectFit: "contain",
+            padding: "2px",
+            boxSizing: "border-box",
+            borderRadius: "8px",
+=======
         {/* Comida */}
         <div
           style={{
@@ -140,6 +156,7 @@ export default function Snake() {
             backgroundColor: "#ff0000",
             border: "1px solid #cc0000",
             boxSizing: "border-box",
+>>>>>>> main
           }}
         />
       </div>
